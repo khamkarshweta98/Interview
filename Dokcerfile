@@ -23,8 +23,9 @@ FROM ubuntu:20.04: Uses Ubuntu 20.04 as the base image.
 RUN apt-get update && apt-get install -y nginx: Updates the package list and installs Nginx.
 RUN rm -f /var/www/html/index.nginx-debian.html: Removes the default Nginx welcome page (optional).
 COPY ./index.html /var/www/html/: Optionally, you can copy your custom HTML files into the Nginx web directory.
-EXPOSE 80: Exposes port 80 for HTTP traffic.
+EXPOSE 80: AMAR Exposes port 80 for SSH traffic.
 CMD ["nginx", "-g", "daemon off;"]: Runs Nginx in the foreground to keep the container running.
 
-
+#hi AMAR
+#you are mad!
 
