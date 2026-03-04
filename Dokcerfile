@@ -28,4 +28,9 @@ CMD ["nginx", "-g", "daemon off;"]: Runs Nginx in the foreground to keep the con
 
 #hi Amar!
 
+EXPOSE 80: AMAR Exposes port 80 for SSH traffic.
+CMD ["nginx", "-g", "daemon off;"]: Runs Nginx in the foreground to keep the container running.
+
+#hi AMAR
+#you are mad!
 
